@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db16911ee6c0c944eac0d0cacd6fda6d, type: 3}
+  m_Name: CanyonLayout
+  m_EditorClassIdentifier: DesertTower.Levels.Runtime::DesertTower.Levels.LevelLayout
+  schemaVersion: 1
+  levelName: Red Canyon Sanctuary
+  gridSize: 1
+  waves: {fileID: 11400000, guid: 9d5edd7fe23aaba4bb755e1b7952aa1e, type: 2}
+  markers:
+  - id: 540df6b93f0e41adbbc439dd49765189
+    label: Core Sanctuary
+    kind: 0
+    position: {x: 0, y: 2, z: -28}
+    rotation: {x: -0, y: 0, z: 0}
+    footprint: {x: 3, y: 3, z: 3}
+    range: 8
+    spawnRadius: 2
+    definition: {fileID: 0}
+  - id: 3fd89390ccf74839b6e439321a07fd7c
+    label: Player Start
+    kind: 2
+    position: {x: -4, y: 2, z: -24}
+    rotation: {x: -0, y: 0, z: 0}
+    footprint: {x: 0.8, y: 1.8, z: 0.8}
+    range: 8
+    spawnRadius: 2
+    definition: {fileID: 0}
+  - id: af28db90bb244a77bb084213472fca16
+    label: Respawn
+    kind: 3
+    position: {x: 4, y: 2, z: -30}
+    rotation: {x: -0, y: 0, z: 0}
+    footprint: {x: 0.8, y: 1.8, z: 0.8}
+    range: 8
+    spawnRadius: 2
+    definition: {fileID: 0}
+  - id: fae388db214c4480aa42361460e43b8a
+    label: "A \xB7 West Pass"
+    kind: 1
+    position: {x: -26, y: 2, z: 30}
+    rotation: {x: -0, y: 180, z: 0}
+    footprint: {x: 2, y: 2, z: 2}
+    range: 8
+    spawnRadius: 2
+    definition: {fileID: 0}
+  - id: a8fbe19529024d328f4b89834aa66533
+    label: "B \xB7 High Pass"
+    kind: 1
+    position: {x: 26, y: 5, z: 30}
+    rotation: {x: -0, y: 180, z: 0}
+    footprint: {x: 2, y: 2, z: 2}
+    range: 8
+    spawnRadius: 2
+    definition: {fileID: 0}
+  - id: a6fb60bb591046fe81925733f9775849
+    label: Cobra Example
+    kind: 4
+    position: {x: -24, y: 2, z: 13}
+    rotation: {x: -0, y: 0, z: 0}
+    footprint: {x: 2, y: 2, z: 2}
+    range: 8
+    spawnRadius: 2
+    definition: {fileID: 0}
+  - id: 11eb360234e34293917251a650668bc6
+    label: Cobra Example
+    kind: 4
+    position: {x: 26, y: 5, z: 13}
+    rotation: {x: -0, y: 0, z: 0}
+    footprint: {x: 2, y: 2, z: 2}
+    range: 8
+    spawnRadius: 2
+    definition: {fileID: 0}
+  - id: f0db5431e9ab4918960195d4ca5858e0
+    label: Summon Example
+    kind: 4
+    position: {x: -5, y: 2, z: -14}
+    rotation: {x: -0, y: 0, z: 0}
+    footprint: {x: 2, y: 2, z: 2}
+    range: 8
+    spawnRadius: 2
+    definition: {fileID: 0}
+  areas:
+  - id: 33bca49594094cc4ba53f035fa437459
+    label: West Defense
+    kind: 0
+    position: {x: -26, y: 2, z: 10}
+    rotation: {x: -0, y: 0, z: 0}
+    height: 1
+    vertices:
+    - {x: 0, y: 0}
+    - {x: 0, y: 8}
+    - {x: 8, y: 8}
+    - {x: 8, y: 0}
+  - id: 0fd5c9e6562342ae8d752392322a95fe
+    label: High Defense
+    kind: 0
+    position: {x: 20, y: 5, z: 10}
+    rotation: {x: -0, y: 0, z: 0}
+    height: 1
+    vertices:
+    - {x: 0, y: 0}
+    - {x: 0, y: 8}
+    - {x: 8, y: 8}
+    - {x: 8, y: 0}
+  - id: eb4ed425f67247febf879e9b925d5c1e
+    label: Fallback Defense
+    kind: 0
+    position: {x: -8, y: 2, z: -17}
+    rotation: {x: -0, y: 0, z: 0}
+    height: 1
+    vertices:
+    - {x: 0, y: 0}
+    - {x: 0, y: 6}
+    - {x: 16, y: 6}
+    - {x: 16, y: 0}
+  - id: 33cca75dc42b4af98bc3b074bd7ca6f5
+    label: Battle Basin
+    kind: 2
+    position: {x: -12, y: 2, z: -17}
+    rotation: {x: -0, y: 0, z: 0}
+    height: 1
+    vertices:
+    - {x: 0, y: 0}
+    - {x: 0, y: 18}
+    - {x: 24, y: 18}
+    - {x: 24, y: 0}
+  - id: 54efeb12942146ebb48d530d4720820c
+    label: Core Keep Clear
+    kind: 1
+    position: {x: -3.5, y: 2, z: -31.5}
+    rotation: {x: -0, y: 0, z: 0}
+    height: 1
+    vertices:
+    - {x: 0, y: 0}
+    - {x: 0, y: 7}
+    - {x: 7, y: 7}
+    - {x: 7, y: 0}
+  - id: adba0348eb6e4a37bae3cb803139f1b3
+    label: Spawn A Keep Clear
+    kind: 1
+    position: {x: -29, y: 2, z: 27}
+    rotation: {x: -0, y: 0, z: 0}
+    height: 1
+    vertices:
+    - {x: 0, y: 0}
+    - {x: 0, y: 6}
+    - {x: 6, y: 6}
+    - {x: 6, y: 0}
+  - id: 754c8cb092bf4fd5a509fcd2fbaa76d7
+    label: Spawn B Keep Clear
+    kind: 1
+    position: {x: 23, y: 5, z: 27}
+    rotation: {x: -0, y: 0, z: 0}
+    height: 1
+    vertices:
+    - {x: 0, y: 0}
+    - {x: 0, y: 6}
+    - {x: 6, y: 6}
+    - {x: 6, y: 0}
+  routes:
+  - id: a721a428ad5c4024950dbe72cd041fb1
+    label: "A \u2192 Basin \u2192 Core"
+    spawnId: fae388db214c4480aa42361460e43b8a
+    coreId: 540df6b93f0e41adbbc439dd49765189
+    points:
+    - {x: -22, y: 2, z: 14}
+    - {x: -17, y: 2, z: 1}
+    - {x: 0, y: 2, z: -9}
+  - id: fd762143119a4f04ab85339a28db991d
+    label: "B \u2192 Ramp \u2192 Core"
+    spawnId: a8fbe19529024d328f4b89834aa66533
+    coreId: 540df6b93f0e41adbbc439dd49765189
+    points:
+    - {x: 24, y: 5, z: 14}
+    - {x: 23, y: 5, z: 5}
+    - {x: 14, y: 2, z: -6}
+    - {x: 0, y: 2, z: -9}

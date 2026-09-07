@@ -1,0 +1,10 @@
+{
+  "name": "com.deserttower.level-editor",
+  "version": "0.2.0",
+  "displayName": "Desert Tower Level Editor",
+  "description": "Terrain and modular environment authoring with marker-based layouts, build zones, waves and navigation diagnostics.",
+  "unity": "6000.0",
+  "dependencies": {
+    "com.unity.ai.navigation": "2.0.9"
+  }
+}

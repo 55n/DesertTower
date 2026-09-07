@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cda2ba6ab5df9c249b01d99e290ae1b5, type: 3}
+  m_Name: CanyonWaves 2
+  m_EditorClassIdentifier: DesertTower.Levels.Runtime::DesertTower.Levels.WaveSet
+  waves:
+  - label: Wave 1
+    preparationSeconds: 0
+    groups:
+    - spawnId: a3f7ac09a4bf432da30377e5bc7d7a8f
+      targetId: 51479575995f4f40acfcfc90ea961510
+      routeId: cc76c12b8a554b83ad6f094f8777f62f
+      element: {fileID: 0}
+      count: 6
+      delay: 0
+      interval: 1
+  - label: Wave 2
+    preparationSeconds: 20
+    groups:
+    - spawnId: a3f7ac09a4bf432da30377e5bc7d7a8f
+      targetId: 51479575995f4f40acfcfc90ea961510
+      routeId: cc76c12b8a554b83ad6f094f8777f62f
+      element: {fileID: 0}
+      count: 9
+      delay: 0
+      interval: 1
+  - label: Wave 3
+    preparationSeconds: 20
+    groups:
+    - spawnId: a3f7ac09a4bf432da30377e5bc7d7a8f
+      targetId: 51479575995f4f40acfcfc90ea961510
+      routeId: cc76c12b8a554b83ad6f094f8777f62f
+      element: {fileID: 0}
+      count: 12
+      delay: 0
+      interval: 1
+    - spawnId: e4d071d860b04ea59b4745ea7ebc7ad3
+      targetId: 51479575995f4f40acfcfc90ea961510
+      routeId: 77b5bfd561dc4ed58c53fb738c9e2c6b
+      element: {fileID: 0}
+      count: 9
+      delay: 3
+      interval: 1.2
+  - label: Wave 4
+    preparationSeconds: 20
+    groups:
+    - spawnId: a3f7ac09a4bf432da30377e5bc7d7a8f
+      targetId: 51479575995f4f40acfcfc90ea961510
+      routeId: cc76c12b8a554b83ad6f094f8777f62f
+      element: {fileID: 0}
+      count: 15
+      delay: 0
+      interval: 1
+    - spawnId: e4d071d860b04ea59b4745ea7ebc7ad3
+      targetId: 51479575995f4f40acfcfc90ea961510
+      routeId: 77b5bfd561dc4ed58c53fb738c9e2c6b
+      element: {fileID: 0}
+      count: 11
+      delay: 3
+      interval: 1.2
+  - label: Wave 5
+    preparationSeconds: 20
+    groups:
+    - spawnId: a3f7ac09a4bf432da30377e5bc7d7a8f
+      targetId: 51479575995f4f40acfcfc90ea961510
+      routeId: cc76c12b8a554b83ad6f094f8777f62f
+      element: {fileID: 0}
+      count: 18
+      delay: 0
+      interval: 1
+    - spawnId: e4d071d860b04ea59b4745ea7ebc7ad3
+      targetId: 51479575995f4f40acfcfc90ea961510
+      routeId: 77b5bfd561dc4ed58c53fb738c9e2c6b
+      element: {fileID: 0}
+      count: 13
+      delay: 3
+      interval: 1.2

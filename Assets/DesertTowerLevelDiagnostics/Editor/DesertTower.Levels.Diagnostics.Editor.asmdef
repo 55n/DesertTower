@@ -1,0 +1,8 @@
+{
+  "name": "DesertTower.Levels.Diagnostics.Editor",
+  "rootNamespace": "DesertTower.Levels.Diagnostics.Editor",
+  "references": ["DesertTower.Levels.Runtime", "DesertTower.Levels.Editor", "DesertTower.Levels.Diagnostics"],
+  "includePlatforms": ["Editor"],
+  "defineConstraints": ["DESERT_TOWER_DIAGNOSTICS_INPUT"],
+  "versionDefines": [{ "name": "com.unity.inputsystem", "expression": "1.0.0", "define": "DESERT_TOWER_DIAGNOSTICS_INPUT" }]
+}

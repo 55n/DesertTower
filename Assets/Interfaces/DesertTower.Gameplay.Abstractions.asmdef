@@ -1,0 +1,6 @@
+{
+  "name": "DesertTower.Gameplay.Abstractions",
+  "references": [
+    "DesertTower.Combat.Runtime"
+  ]
+}

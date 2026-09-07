@@ -1,0 +1,6 @@
+{
+  "name": "DesertTower.Levels.Editor",
+  "rootNamespace": "DesertTower.Levels.Editor",
+  "references": ["DesertTower.Levels.Runtime", "Unity.AI.Navigation"],
+  "includePlatforms": ["Editor"]
+}

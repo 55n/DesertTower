@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cda2ba6ab5df9c249b01d99e290ae1b5, type: 3}
+  m_Name: CanyonWaves 1
+  m_EditorClassIdentifier: DesertTower.Levels.Runtime::DesertTower.Levels.WaveSet
+  waves:
+  - label: Wave 1
+    preparationSeconds: 0
+    groups:
+    - routeId: 692a3933c4d34c218da9e9286c596db4
+      actor: {fileID: 0}
+      count: 6
+      delay: 0
+      interval: 1
+  - label: Wave 2
+    preparationSeconds: 20
+    groups:
+    - routeId: 692a3933c4d34c218da9e9286c596db4
+      actor: {fileID: 0}
+      count: 9
+      delay: 0
+      interval: 1
+  - label: Wave 3
+    preparationSeconds: 20
+    groups:
+    - routeId: 692a3933c4d34c218da9e9286c596db4
+      actor: {fileID: 0}
+      count: 12
+      delay: 0
+      interval: 1
+    - routeId: fa8f09c3cdbd4bfea7edf8e342827a09
+      actor: {fileID: 0}
+      count: 9
+      delay: 3
+      interval: 1.2
+  - label: Wave 4
+    preparationSeconds: 20
+    groups:
+    - routeId: 692a3933c4d34c218da9e9286c596db4
+      actor: {fileID: 0}
+      count: 15
+      delay: 0
+      interval: 1
+    - routeId: fa8f09c3cdbd4bfea7edf8e342827a09
+      actor: {fileID: 0}
+      count: 11
+      delay: 3
+      interval: 1.2
+  - label: Wave 5
+    preparationSeconds: 20
+    groups:
+    - routeId: 692a3933c4d34c218da9e9286c596db4
+      actor: {fileID: 0}
+      count: 18
+      delay: 0
+      interval: 1
+    - routeId: fa8f09c3cdbd4bfea7edf8e342827a09
+      actor: {fileID: 0}
+      count: 13
+      delay: 3
+      interval: 1.2

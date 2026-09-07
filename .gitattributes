@@ -1,0 +1,96 @@
+# 텍스트는 LF로 통일한다. 바이너리는 자동으로 구분한다.
+* text=auto eol=lf
+
+# 소스와 설정 파일
+*.cs text
+*.shader text
+*.compute text
+*.cginc text
+*.hlsl text
+*.glsl text
+*.asmdef text
+*.asmref text
+*.json text
+*.xml text
+*.yaml text
+*.yml text
+*.md text
+*.txt text
+*.uss text
+*.uxml text
+*.inputactions text
+*.shadergraph text
+*.shadersubgraph text
+.gitignore text
+.gitattributes text
+
+# Unity YAML 파일. .asset에는 Terrain 등의 바이너리도 있어 자동 판별한다.
+*.meta text
+*.unity text
+*.prefab text
+*.mat text
+*.anim text
+*.controller text
+*.overrideController text
+*.physicMaterial text
+*.physicsMaterial2D text
+*.renderTexture text
+*.mask text
+*.asset text=auto
+
+# Windows 명령 스크립트
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 이미지, 모델, 오디오, 영상, 문서와 압축 파일은 바이너리로 다룬다.
+# binary는 줄바꿈 변환과 텍스트 비교·병합을 끈다.
+*.[pP][nN][gG] binary
+*.[jJ][pP][gG] binary
+*.[jJ][pP][eE][gG] binary
+*.[tT][gG][aA] binary
+*.[tT][iI][fF] binary
+*.[tT][iI][fF][fF] binary
+*.[pP][sS][dD] binary
+*.psb binary
+*.gif binary
+*.bmp binary
+*.ico binary
+*.webp binary
+*.exr binary
+*.hdr binary
+*.dds binary
+*.[fF][bB][xX] binary
+*.blend binary
+*.blend1 binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.aif binary
+*.aiff binary
+*.flac binary
+*.mp4 binary
+*.mov binary
+*.webm binary
+*.avi binary
+*.ttf binary
+*.otf binary
+*.[pP][dD][fF] binary
+*.[pP][pP][tT][xX] binary
+*.ppt binary
+*.docx binary
+*.doc binary
+*.xlsx binary
+*.xls binary
+*.zip binary
+*.7z binary
+*.rar binary
+*.gz binary
+*.unitypackage binary
+*.dll binary
+*.exe binary
+*.pdb binary
+*.so binary
+*.dylib binary
+*.a binary
+
+# Git LFS와 Unity 전용 병합 도구는 별도 설치·설정이 필요하므로 지정하지 않는다.

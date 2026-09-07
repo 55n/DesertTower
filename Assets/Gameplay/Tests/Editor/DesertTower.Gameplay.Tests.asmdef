@@ -1,0 +1,15 @@
+{
+  "name": "DesertTower.Gameplay.Tests",
+  "references": [
+    "DesertTower.Gameplay.Abstractions",
+    "DesertTower.Gameplay.Runtime",
+    "DesertTower.Combat.Runtime",
+    "DesertTower.Levels.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

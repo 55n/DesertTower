@@ -1,0 +1,6 @@
+{
+  "name": "DesertTower.Levels.Tests",
+  "references": ["DesertTower.Levels.Runtime", "DesertTower.Levels.Editor", "Unity.AI.Navigation"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

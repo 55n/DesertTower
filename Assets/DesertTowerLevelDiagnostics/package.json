@@ -1,0 +1,11 @@
+{
+  "name": "com.deserttower.level-diagnostics",
+  "version": "0.2.0",
+  "displayName": "Desert Tower Level Diagnostics (Optional)",
+  "description": "Editor-only navigation probes, wave preview and walkthrough. Not production gameplay.",
+  "unity": "6000.0",
+  "dependencies": {
+    "com.deserttower.level-editor": "0.2.0",
+    "com.unity.inputsystem": "1.14.2"
+  }
+}
