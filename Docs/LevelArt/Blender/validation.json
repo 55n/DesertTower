@@ -1,0 +1,30 @@
+{
+  "blender_version": "5.2.1 LTS",
+  "parameters": {
+    "outer_half_extent": 22.5,
+    "road_width": 4.0,
+    "tier_height": 3.0,
+    "lower_elevation": 0.6,
+    "road_thickness": 0.22,
+    "ramp_flat_fraction": 0.18,
+    "slot_size": 1.4,
+    "character_height": 1.8
+  },
+  "tier_elevations": [
+    0.6,
+    3.6,
+    6.6,
+    9.6
+  ],
+  "build_slot_count": 8,
+  "sampled_route_points": 405,
+  "route_length_m": 379.74,
+  "route_missing_support": 0,
+  "max_surface_error_m": 1e-05,
+  "max_sample_vertical_change_m": 0.153,
+  "max_road_slope_degrees": 14.58,
+  "nonmanifold_terrain_meshes": [],
+  "landing_surface_errors": [],
+  "min_slot_to_route_clearance_m": 0.602,
+  "note": "Geometric validation only. Unity movement, NavMesh and camera playtests remain."
+}

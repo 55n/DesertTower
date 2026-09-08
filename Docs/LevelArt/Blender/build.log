@@ -1,0 +1,16 @@
+C:\course\unity\DesertTower\Docs\LevelArt\Blender\build_spiral_blockout.py:59: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+C:\course\unity\DesertTower\Docs\LevelArt\Blender\build_spiral_blockout.py:377: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world.use_nodes=True
+00:20.172  render           | Saved: 'C:\course\unity\DesertTower\Docs\LevelArt\Blender\Previews\SandGuard_Blockout_Hero.png'
+00:21.078  render           | Saved: 'C:\course\unity\DesertTower\Docs\LevelArt\Blender\Previews\SandGuard_Blockout_Top.png'
+00:21.953  render           | Saved: 'C:\course\unity\DesertTower\Docs\LevelArt\Blender\Previews\SandGuard_Blockout_Rear.png'
+Info: Saved as "SandGuard_Spiral_Blockout_v1.blend"
+
+FBX export starting... 'C:\\course\\unity\\DesertTower\\Docs\\LevelArt\\Blender\\Exports\\SandGuard_Spiral_Blockout_v1.fbx'
+export finished in 0.0298 sec.
+Info: Saved as "SandGuard_Spiral_Blockout_v1.blend"
+BLOCKOUT_COMPLETE C:\course\unity\DesertTower\Docs\LevelArt\Blender\SandGuard_Spiral_Blockout_v1.blend {"blender_version": "5.2.1 LTS", "parameters": {"outer_half_extent": 22.5, "road_width": 4.0, "tier_height": 3.0, "lower_elevation": 0.6, "road_thickness": 0.22, "ramp_flat_fraction": 0.18, "slot_size": 1.4, "character_height": 1.8}, "tier_elevations": [0.6, 3.6, 6.6, 9.6], "build_slot_count": 8, "sampled_route_points": 405, "route_length_m": 379.74, "route_missing_support": 0, "max_surface_error_m": 1e-05, "max_sample_vertical_change_m": 0.153, "max_road_slope_degrees": 14.58, "nonmanifold_terrain_meshes": [], "landing_surface_errors": [], "min_slot_to_route_clearance_m": 0.602, "note": "Geometric validation only. Unity movement, NavMesh and camera playtests remain."}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

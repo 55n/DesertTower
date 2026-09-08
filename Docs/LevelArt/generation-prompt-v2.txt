@@ -1,0 +1,26 @@
+Use case: stylized-concept
+Asset type: Environment preproduction art sheet to guide a Blender modeler before modeling.
+Create a NEW coherent level design sheet for the game SANDGUARD, landscape 3:2, high resolution. This is a practical terrain massing and construction reference, beautiful restrained stylized 3D concept rendering with clean edge lines, large simple volumes, minimal decoration, sandstone beige and pale teal core on a warm light grey drafting background. Korean labels crisply typeset. NO ornate fantasy parchment border.
+
+CORE GAMEPLAY GEOMETRY — HIGHEST PRIORITY:
+A SOLID CLOSED stepped SQUARE pyramid, exactly THREE exterior combat terrace bands plus a small summit core platform. Players NEVER enter the pyramid. There are NO interiors, doors, tunnels, arches, interior cutaways, portals, teleporters or stairways anywhere.
+Enemies follow ONE CONTINUOUS SQUARE SPIRAL ROAD wrapping all FOUR outside faces, ascending from a single entry at ground level all the way to the summit cyan crystal core. Make the actual terrain visibly form the spiral road, not merely arrows on unrelated stacked platforms. Route alternates broad mostly level exterior combat stretches, 90-degree corner turns, and long gentle SOLID WEDGE RAMPS tangential to the outside walls. Each ramp has its bottom physically attached to the previous path and its top attached to the next higher path. Successive ramps occur on successive sides of the pyramid, so the route continues around the body. NO straight axial front shortcut, NO front central stairs, NO disconnected ramps, NO floating roads, NO switchback front zigzag, NO multiple enemy branches. The continuous road coils upwards as a squared helix supported by the solid stepped mass. Allow rear route segments to be hidden in main view but reveal the full connected square spiral in a top view. Do NOT draw three independent closed ring paths; it is one connected rising spiral.
+Player has innate vertical movement ability. Along exposed terrace rims, aligned clear landing ledges allow the player to jump directly up/down between adjacent terrace bands, bypassing the long enemy road. The three main tier risers are modest compared to broad walking widths. No walls, overhangs or high parapets block these landing edges. Use a few discrete thin CYAN VERTICAL bidirectional diagram arrows OUTSIDE the front-left side silhouette connecting lower/middle/upper/summit ledges. These arrows indicate a movement ability and are NOT ramps, energy beams, elevators, architectural structures or portals. Road itself has sparse thin OCHRE direction chevrons following the real surface, including inclines; make the colors clearly different.
+Exactly EIGHT small EMPTY SQUARE sandstone construction pads recessed or flush into widened side bays along the three combat terraces. They are blank square footprints with a dark small corner marking, NO circular glowing rings, no installed towers. Pads never obstruct the travel lane or vertical landing zones. Do not specify a fixed 3/3/2 allocation in text; positioning is provisional.
+Summit core is a single simple faceted cyan crystal on a low square plinth; minimal surroundings, wide accessible summit platform. No monumental pillars to obscure paths.
+
+SHEET LAYOUT:
+Left approximately 62%: one large, clean, detailed elevated three-quarter axonometric hero view of the WHOLE buildable level showing front and right faces and clear exterior ramps, softly grounded on a plain desert base. Mostly simple modular sandstone, large blocks with sparse joint hints rather than thousands of tiny voxels, subtle chipped corner accents, very sparse red cloth accents fixed to solid walls well away from traversal ledges. A small neutral grey human scale mannequin standing on a terrace can show scale, no character costume.
+Right top: a true TOP VIEW plan of the SAME structure. Clearly show the single angular square spiral road from entry around the outer lower tier, curling inward as it rises to core. Thin ochre directional chevrons track road center. One continuous route, not multiple unconnected rings. Pads are quiet squares in side bays. Label this "평면 · 적의 나선형 동선".
+Right below: a smaller rear three-quarter CLAY BLOCKOUT view of the SAME structure, so the modeler sees the ramps hidden behind the main view. Solid closed masses, pale clay, minimal ochre path guide. Label "후면 · 경사로 연결".
+Bottom: isolated small clay construction pieces in an orderly baseline strip: flat road slab, solid straight wedge ramp, 90-degree flat corner slab, solid terrace wall/ledge block, empty square construction pad, low core plinth. Label strip "블렌더 모델링용 기본 부품". All modules clean, reusable, no UV wireframes and no software UI.
+
+TEXT:
+Main title "SANDGUARD"
+Subtitle "외곽 나선형 피라미드"
+Small edition line "LEVEL STRUCTURE STUDY 02"
+Hero label "전체 구조"
+Color legend with ochre line "적 · 외곽 경사로" and cyan vertical arrow "플레이어 · 층간 수직이동"
+Footer "내부 진입 없음 · 워프 없음"
+Smaller footer "형태 검토안 · 치수와 슬롯 위치는 미확정"
+Use minimal text only. Preserve clarity of physical ramp connections over ornamental detail. This must make the asymmetric winding ramp layout obvious to a Blender artist. No interior access, no stair treads, no warps, no circular glowing floor sockets.
