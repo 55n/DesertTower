@@ -321,18 +321,27 @@ for side in [0,1]:
 
 # Gameplay route data uses continuous terrain-space points, with a separate
 # visible overlay collection. These curves/arrows never become collision meshes.
-waypoints=[]
-for j in range(9):
-    t=max(.002,j/8)
-    p=entry_start[0].lerp(entry_start[1],.4).lerp(entry_end[0].lerp(entry_end[1],.4),t)
-    waypoints.append(p)
+start=entry_start[0].lerp(entry_start[1],.4)
+end=entry_end[0].lerp(entry_end[1],.4)
+route_nodes=[start.lerp(end,.002),end]
 for i in range(12):
-    for j in range(1,33):
-        waypoints.append(surface(i,j/32,.4))
-route_end=waypoints[-1]
-for j in range(1,13):
-    waypoints.append(route_end.lerp(Vector((0,0,TOP_Z)),j/12))
-curve('Enemy_Route_Continuous_Guide',[p+Vector((0,0,.07)) for p in waypoints],.025,M_AMBER,'06_Route_Guides')
+    if i%4==3:
+        ca=(point(i)+point(i,True))/2
+        cb=(point(i+1)+point(i+1,True))/2
+        ca.z=cb.z=0
+        direction=(cb-ca).normalized()
+        pa=surface(i,0,.4);pb=surface(i,1,.4)
+        pa.z=pb.z=0
+        for fraction in [PARAMS['ramp_flat_fraction'],1-PARAMS['ramp_flat_fraction']]:
+            t=(fraction*(cb-ca).length-(pa-ca).dot(direction))/(pb-pa).dot(direction)
+            route_nodes.append(surface(i,t,.4))
+    route_nodes.append(surface(i,1,.4))
+route_nodes.append(Vector((0,0,TOP_Z)))
+waypoints=[route_nodes[0]]
+for a,b in zip(route_nodes,route_nodes[1:]):
+    count=math.ceil((b-a).length/.75)
+    waypoints.extend(a.lerp(b,j/count) for j in range(1,count+1))
+curve('Enemy_Route_Continuous_Guide',[p+Vector((0,0,.07)) for p in waypoints],.05,M_AMBER,'06_Route_Guides')
 for i in range(12):
     for n,t in enumerate([.30,.62]):
         p=surface(i,t,.4)+Vector((0,0,.08))
@@ -340,7 +349,7 @@ for i in range(12):
         across=Vector((-tangent.y,tangent.x,0)).normalized()
         coords=[p-tangent*.26+across*.18,p+tangent*.16,p-tangent*.26-across*.18]
         curve(f'Route_Chevron_{i+1:02d}_{n}',coords,.035,M_AMBER,'06_Route_Guides')
-for n,p in enumerate([waypoints[0]]+[surface(i,0,.4) for i in range(12)]+[waypoints[-1]]):
+for n,p in enumerate(route_nodes):
     e=empty(f'EnemyWaypoint_{n:02d}',p,'06_Route_Guides',True)
     e['sequence']=n
     e.hide_render=True
@@ -389,9 +398,9 @@ def area(name,loc,energy,size):
     obj.location=loc
     obj.rotation_euler=(Vector((0,0,3))-obj.location).to_track_quat('-Z','Y').to_euler()
     return obj
-area('Key_Softbox',(-25,-32,50),18000,25)
-area('Fill_Softbox',(25,-4,28),9000,25)
-area('Rim_Softbox',(5,25,38),14000,20)
+area('Key_Softbox',(-25,-32,50),11000,18)
+area('Fill_Softbox',(25,-4,28),4500,22)
+area('Rim_Softbox',(5,25,38),7000,18)
 
 def camera(name,loc,target,scale):
     data=bpy.data.cameras.new(name)
@@ -416,6 +425,7 @@ scene.render.resolution_percentage=100
 scene.render.image_settings.file_format='PNG'
 scene.render.film_transparent=False
 scene.render.fps=30
+scene.view_settings.exposure=-.45
 try:
     scene.view_settings.view_transform='AgX'
     scene.view_settings.look='AgX - Medium High Contrast'
@@ -487,6 +497,8 @@ data=dict(units='meters',blender_axes='X right / Y depth / Z up',
           core_target_unity=[0,TOP_Z,0],
           enemy_route_blender=[[round(x,5) for x in p] for p in waypoints],
           enemy_route_unity=[unity(p) for p in waypoints],
+          exact_route_nodes_blender=[[round(x,5) for x in p] for p in route_nodes],
+          exact_route_nodes_unity=[unity(p) for p in route_nodes],
           build_slots=[dict(**s,unity=unity(s['blender'])) for s in slot_records],
           player_mobility=landing_records)
 (EXPORT/'SandGuard_Spiral_Blockout_v1_layout.json').write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')

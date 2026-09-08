@@ -17,14 +17,14 @@
     9.6
   ],
   "build_slot_count": 8,
-  "sampled_route_points": 405,
-  "route_length_m": 379.74,
+  "sampled_route_points": 516,
+  "route_length_m": 379.75,
   "route_missing_support": 0,
-  "max_surface_error_m": 1e-05,
-  "max_sample_vertical_change_m": 0.153,
+  "max_surface_error_m": 0.0,
+  "max_sample_vertical_change_m": 0.1875,
   "max_road_slope_degrees": 14.58,
   "nonmanifold_terrain_meshes": [],
   "landing_surface_errors": [],
-  "min_slot_to_route_clearance_m": 0.602,
+  "min_slot_to_route_clearance_m": 0.589,
   "note": "Geometric validation only. Unity movement, NavMesh and camera playtests remain."
 }

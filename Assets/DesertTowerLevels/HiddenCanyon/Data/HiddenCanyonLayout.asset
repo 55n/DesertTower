@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db16911ee6c0c944eac0d0cacd6fda6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: DesertTower.Levels.Runtime::DesertTower.Levels.LevelLayout
+  schemaVersion: 2
+  levelName: "\uC228\uACA8\uC9C4 \uD611\uACE1\uC758 \uD53C\uB77C\uBBF8\uB4DC"
+  gridSize: 1
+  waves: {fileID: 11400000, guid: 6f5372e968aacb24eae7b3f1c8eb9e83, type: 2}
+  buildSlots:
+  - id: ffb5ec8cca124529b6f4b647cf1cad89
+    label: BuildSlot_01
+    occupancySurfaceId: pyramid.lower
+    position: {x: -8.166401, y: 0.6, z: 18.609999}
+    rotation: {x: -0, y: 0, z: 0}
+    footprint: {x: 1.4, y: 1.4}
+    available: 1
+    allowedFacilityIds: []
+  - id: 3bead871a15d4c4da569933b376c66b3
+    label: BuildSlot_02
+    occupancySurfaceId: pyramid.lower
+    position: {x: -17.609999, y: 0.6, z: -7.7064004}
+    rotation: {x: -0, y: 0, z: 0}
+    footprint: {x: 1.4, y: 1.4}
+    available: 1
+    allowedFacilityIds: []
+  - id: 37f3828331ea4214b77dabea3987dc18
+    label: BuildSlot_03
+    occupancySurfaceId: pyramid.lower
+    position: {x: 7.246401, y: 0.6, z: -16.609999}
+    rotation: {x: -0, y: 0, z: 0}
+    footprint: {x: 1.4, y: 1.4}
+    available: 1
+    allowedFacilityIds: []
+  - id: abf6cf201b424a70b73ff707518f33e5
+    label: BuildSlot_04
+    occupancySurfaceId: pyramid.middle
+    position: {x: -6.3264008, y: 3.6, z: 14.61}
+    rotation: {x: -0, y: 0, z: 0}
+    footprint: {x: 1.4, y: 1.4}
+    available: 1
+    allowedFacilityIds: []
+  - id: 0bf1eed79e044d9fadcce0a948fafc14
+    label: BuildSlot_05
+    occupancySurfaceId: pyramid.middle
+    position: {x: -13.61, y: 3.6, z: -5.8664007}
+    rotation: {x: -0, y: 0, z: 0}
+    footprint: {x: 1.4, y: 1.4}
+    available: 1
+    allowedFacilityIds: []
+  - id: 0ae3b64db5ee409da6687288490db9d9
+    label: BuildSlot_06
+    occupancySurfaceId: pyramid.middle
+    position: {x: 5.4064007, y: 3.6, z: -12.61}
+    rotation: {x: -0, y: 0, z: 0}
+    footprint: {x: 1.4, y: 1.4}
+    available: 1
+    allowedFacilityIds: []
+  - id: c0ba4b7b133e49c6b8bd80a649ca5268
+    label: BuildSlot_07
+    occupancySurfaceId: pyramid.upper
+    position: {x: -4.4864, y: 6.6, z: 10.61}
+    rotation: {x: -0, y: 0, z: 0}
+    footprint: {x: 1.4, y: 1.4}
+    available: 1
+    allowedFacilityIds: []
+  - id: 12abf2a3c3f64ef698bdca9a228c0e93
+    label: BuildSlot_08
+    occupancySurfaceId: pyramid.upper
+    position: {x: -9.609999, y: 6.6, z: -4.0264}
+    rotation: {x: -0, y: 0, z: 0}
+    footprint: {x: 1.4, y: 1.4}
+    available: 1
+    allowedFacilityIds: []
+  markers:
+  - id: 669fd1761e5342dcb7985133c6d11a6d
+    label: "\uD611\uACE1 \uBC14\uAE65 \uC801 \uC9C4\uC785"
+    kind: 1
+    position: {x: 53, y: 0, z: 83}
+    rotation: {x: -0, y: 0, z: 0}
+    footprint: {x: 2, y: 2, z: 2}
+    previewRange: 8
+    spawnRadius: 1.4
+    definition: {fileID: 0}
+  - id: f4db1ff90c0b47dbb0163efdee3e89e8
+    label: "\uD611\uACE1 \uC785\uAD6C \uD50C\uB808\uC774\uC5B4 \uC2DC\uC791"
+    kind: 2
+    position: {x: 48, y: 0, z: 70}
+    rotation: {x: -0, y: 0, z: 0}
+    footprint: {x: 0.8, y: 1.8, z: 0.8}
+    previewRange: 8
+    spawnRadius: 1.4
+    definition: {fileID: 0}
+  - id: 96075a774c514f22b03ba2fd3ef2c16a
+    label: "\uBD84\uC9C0 \uBCF5\uADC0 \uC9C0\uC810"
+    kind: 3
+    position: {x: 29, y: 0, z: 30}
+    rotation: {x: -0, y: 0, z: 0}
+    footprint: {x: 0.8, y: 1.8, z: 0.8}
+    previewRange: 8
+    spawnRadius: 1.4
+    definition: {fileID: 0}
+  - id: c44756c477fe482ab68ed9a04d2372a6
+    label: "\uC815\uC0C1 \uCF54\uC5B4"
+    kind: 0
+    position: {x: -1.65, y: 9.6, z: 0}
+    rotation: {x: -0, y: 0, z: 0}
+    footprint: {x: 0.6, y: 1, z: 0.6}
+    previewRange: 8
+    spawnRadius: 1.4
+    definition: {fileID: 0}
+  areas:
+  - id: 714950a2da364e618c509d3745809f7b
+    label: "\uD53C\uB77C\uBBF8\uB4DC \uC218\uC9C1 \uC804\uD22C \uAD6C\uC5ED"
+    kind: 2
+    position: {x: -25, y: 4, z: -25}
+    rotation: {x: -0, y: 0, z: 0}
+    height: 13
+    vertices:
+    - {x: 0, y: 0}
+    - {x: 50, y: 0}
+    - {x: 50, y: 50}
+    - {x: 0, y: 50}
+  routes:
+  - id: c982609ee92c4acfbc8bbac7c8cfa504
+    label: "\uD611\uACE1 \uC9C4\uC785 \u2192 \uD53C\uB77C\uBBF8\uB4DC \uB098\uC120\uB85C
+      \u2192 \uCF54\uC5B4"
+    spawnId: 669fd1761e5342dcb7985133c6d11a6d
+    coreId: c44756c477fe482ab68ed9a04d2372a6
+    points:
+    - {x: 49, y: 0, z: 65}
+    - {x: 46, y: 0, z: 53}
+    - {x: 39, y: 0, z: 43}
+    - {x: 34, y: 0, z: 33}
+    - {x: 29, y: 0, z: 24}
+    - {x: 26.888, y: 0.0011999846, z: 14.911999}
+    - {x: 20.900002, y: 0.6, z: 20.900002}
+    - {x: -19.9, y: 0.6, z: 19.9}
+    - {x: -18.9, y: 0.6, z: -18.9}
+    - {x: 17.900002, y: 0.6, z: -17.900002}
+    - {x: 17.71231, y: 0.60000026, z: -11.368459}
+    - {x: 17.087013, y: 3.6, z: 10.39197}
+    - {x: 16.9, y: 3.6, z: 16.9}
+    - {x: -15.9, y: 3.6, z: 15.9}
+    - {x: -14.9, y: 3.6, z: -14.9}
+    - {x: 13.9, y: 3.6, z: -13.9}
+    - {x: 13.709888, y: 3.6, z: -8.805005}
+    - {x: 13.088965, y: 6.6, z: 7.8357306}
+    - {x: 12.9, y: 6.6, z: 12.9}
+    - {x: -11.9, y: 6.6, z: 11.9}
+    - {x: -10.9, y: 6.6, z: -10.9}
+    - {x: 9.9, y: 6.6, z: -9.9}
+    - {x: 9.705244, y: 6.6, z: -6.2385974}
+    - {x: 9.092399, y: 9.6, z: 5.282911}
+    - {x: 8.9, y: 9.6, z: 8.9}

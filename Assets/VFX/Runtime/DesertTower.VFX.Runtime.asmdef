@@ -1,0 +1,5 @@
+{
+  "name": "DesertTower.VFX.Runtime",
+  "rootNamespace": "DesertTower.VFX",
+  "references": []
+}

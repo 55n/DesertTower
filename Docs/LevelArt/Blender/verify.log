@@ -1,0 +1,7 @@
+00:01.594  blend            | Read blend: "C:\course\unity\DesertTower\Docs\LevelArt\Blender\SandGuard_Spiral_Blockout_v1.blend"
+Extensions: writing cache failed ([WinError 5] 액세스가 거부되었습니다: 'C:\\Users\\m\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2').
+FBX version: 7400
+FILES_VERIFIED {"saved_blend_reopened": true, "fbx_reimported": true, "mesh_count": 38, "build_slot_empties": 8, "route_node_empties": 21, "max_roundtrip_bounds_error_m": 2.0265579223632812e-06, "original_bounds_blender": [[-32.5, -28.0, -0.800000011920929], [28.5, 28.0, 11.899999618530273]], "fbx_bounds_blender": [[-32.5, -28.0, -0.8000020384788513], [28.5, 28.0, 11.899999618530273]], "note": "File and FBX round-trip checked in Blender. Unity runtime not tested."}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
